@@ -2,3 +2,146 @@
     margin: 0;
     padding: 0;
 }
+.AN-container-0{ 
+    display: grid;
+grid-template-columns:0% 1fr 1fr 1fr 0%;
+column-gap: 5.5%;
+text-align: center;
+
+}
+h1.AN-gray{
+    color: #333333;
+    font-size: 150%;
+    font-weight: 400;
+}
+p.AN-gray{
+    color: #999999;
+    line-height: 150%;
+    padding: 3%;
+}
+.AN-container-1{
+display: grid;
+height: 10%;
+grid-template-columns: 1fr 5% 1fr;
+padding: 2%;
+gap: 4%;
+justify-content: center;
+align-items: center;
+justify-self: center;
+}
+.AN-hr{
+    padding: 0.1%;
+    background-color: #99999952;
+    box-shadow: 1px 0.5px 1px 0.5px #9999996a;
+   
+}
+.AN-circle{
+    width: 100%;
+    height: 60px;
+    border-radius:100%;
+    background: rgba(253, 133, 88, 0.2);
+    
+}
+p.AN-orance{
+    font-size: 90%;
+    font-weight: 500;
+    letter-spacing: 1.2px;
+    color: #FD8558;
+}
+.AN-container-3{
+    display: grid;
+    grid-template-columns: 0% 20% 1fr 10% 0%;
+    padding: 1% 3%;
+    text-align: start;
+    align-items: center;
+}
+.AN-button button{
+    padding: 10% 16%;
+    background-color: #FD8558;
+    border: none;
+    color: white;
+}
+.AN-button button:hover{
+    background-color: #333333;
+}
+.AN-img{
+    width: 100%;
+    text-align: end;
+}
+.AN-img img{
+    width: 40%;
+}
+.AN-container-4{
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+
+}
+.AN-item-2{
+    grid-column-start: 2;
+    grid-column-end:4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(./images/background2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 30% 40%;
+
+}
+.AN-item-1{
+    background-image: url(./images/crazy\ max.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 30% 40%;
+}
+.AN-item-3{
+    background-image: url(./images/differents1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 30% 40%;
+}
+.AN-item-4{
+    background-image: url(./images/stylish-house.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 30% 40%;
+}
+.AN-item-5{
+    background-image: url(./images/crazy\ max.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 30% 30% 40%;
+}
+
+.AN-box{
+    width: 80%;
+    padding: 4%;
+    margin: auto;
+    display: flex;
+    background-color: #ffffffa4;
+}
+p.AN-box{
+    background-color: rgba(0, 0, 0, 0);
+}
+.AN-box input{
+    width: 8%;
+    border: 1px solid #333333;
+}
+input.AN-big-box{
+    width: 5%;
+    border: 1px solid #333333;
+}
+p.AN-box{
+    font-size: 115%;
+}
